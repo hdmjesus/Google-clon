@@ -204,10 +204,11 @@ span:hover
    background: #f2f2f2;
    border: #fff;
    border-radius: 5px;
-   font-size: 14px;
+   font-size: 15px;
    color: #5f6368;
    padding: 0 15px;
    margin-right:15px ;
+   font-family: arial;
 
 }
 .main .botones div button:hover
