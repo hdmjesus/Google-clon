@@ -35,7 +35,40 @@ header
     justify-content: flex-end;
 
 }
+header nav
+{
+    display: flex;
+    flex-direction: row;
+}
 
+header nav .menu-icon
+{
+    background-image: url("https://static.thenounproject.com/png/756729-200.png") ;
+    background-repeat:no-repeat ;
+    background-position:center ;
+    background-size:contain ;
+    width: 25px;
+    height: 25px;
+}
+
+header nav ul 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+header nav ul li
+{
+    list-style: none;
+}
+
+nav img
+{
+    border-radius: 50%;
+    margin-left: 10px;
+}
 header a
 
 {
@@ -74,8 +107,9 @@ header a:hover
 {
     width: 100%;
     max-width: 700px;
-    margin: 120px auto;
+    margin: 65px auto;
    align-content: center;
+   text-align: center;
 }
 
 .main .busqueda
@@ -85,57 +119,62 @@ header a:hover
     flex-wrap: wrap;
 }
 
+.main .imagen img
+{
+    width: 272px;
+    height: 92px;
+    margin:0 auto;
+    margin-bottom:25px ;
+}
 .main .busqueda .logo
 {
     padding-bottom: 20px;
 }
 
+.main .busqueda{
+    width: 700px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
 
-.main .busqueda .buscador
+.main .main-input
 {
+    width: 600px;
+    border-radius:100px ;
+    border: 1px solid #c9c4c3;
+    padding: 3px;
     display: flex;
-    width: 80%;
-    flex-wrap: wrap;
     justify-content:center;
-    
+    align-items: center;
+    outline: none;
 }
-.main .busqueda input[type="text"]
-
+.main .main-input .lupa
 {
+    color:#5c5c5c;
+    cursor:default;
+    margin-left:10px ;
+
+}
+.main .main-input .phone
+{
+   margin-right:10px ;
+
+}
+
+.main .main-input:hover
+{
+    box-shadow: 0 1px 6px 0 #20212447;
+    border: #dfe1e500;
+}
+
+.main .main-input input[type="text"]
+{
+    border: none;
     width: 100%;
-    padding: 10px ;
-    border-radius: 40px;
-    border: 1px solid  rgba(0, 0, 0, 0.2);;
-   
-}
-.main .busqueda input[type="text"]:hover
-
-{
-   
-   
+    height: 40px;
 }
 
-.main .busqueda button
-
-{
-    width: 40%;
-    margin: 30px 10px;
-    padding: 9px 10px;
-    border:1px solid#fff ;
-    border-radius: 5px;
-    margin-bottom: 10px;
-}
-
-.main .busqueda button:hover
-
-{
-    border: 1px solid #cecece;
-    cursor: pointer;
-
-}
-
-span
-{
+.azul{
     color: darkblue;
 
 }
@@ -147,6 +186,50 @@ span:hover
     
 }
 
+.main .botones
+{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom:130px;
+}
+
+.main .botones div
+{
+    display: inline-block;
+}
+
+.main .botones div button
+{
+   height: 36px;
+   background: #f2f2f2;
+   border: #fff;
+   border-radius: 5px;
+   font-size: 14px;
+   color: #5f6368;
+   padding: 0 15px;
+   margin-right:15px ;
+
+}
+.main .botones div button:hover
+{
+   border: 1px solid #dcdddf;
+   box-shadow: 0 1px 1px rgb(49, 48, 48) ;
+   color: black;
+   
+   
+
+}
+
+
+
+/* --------------------FOOTER--------------- */
+/* --------------------FOOTER--------------- */
+/* --------------------FOOTER--------------- */
+/* --------------------FOOTER--------------- */
+/* --------------------FOOTER--------------- */
+/* --------------------FOOTER--------------- */
+/* --------------------FOOTER--------------- */
+
 
 footer
 {width: 100%;
@@ -156,6 +239,7 @@ footer
     justify-content: space-between;
     /* align-content: center; */
     width: 100%;
+    
 }
 
 footer .detalles
